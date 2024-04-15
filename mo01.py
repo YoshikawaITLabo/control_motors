@@ -53,7 +53,6 @@ def pcaScenario():
         pca.servo[i].angle=None #disable channel
         time.sleep(0.1)
 
-
 if __name__ == '__main__':
     init()
     main()
